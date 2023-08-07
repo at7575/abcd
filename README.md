@@ -17,7 +17,7 @@ The following steps detail how to build SDKABC
 ```
 
 ## Build an Run SampleApp
-1. SampleApp look for dependency of SDK in the `$PROJECT_DIR`.
+1. Add dependency for `SDKABC.xcframework` and `SDKXYZ.xcframework` into App dependency ("Frameworks, Libraries, and Embedded Content")
 2. Run SampleApp in Xcode.
 
 ## Others Commands

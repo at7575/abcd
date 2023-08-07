@@ -13,28 +13,10 @@
 		F6D7024C2A7D0EC40024EA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7024A2A7D0EC40024EA2A /* Main.storyboard */; };
 		F6D7024E2A7D0EC50024EA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D7024D2A7D0EC50024EA2A /* Assets.xcassets */; };
 		F6D702512A7D0EC50024EA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7024F2A7D0EC50024EA2A /* LaunchScreen.storyboard */; };
-		F6D7025A2A7D0EDF0024EA2A /* SDKABC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D702592A7D0EDF0024EA2A /* SDKABC.xcframework */; };
-		F6D7025B2A7D0EDF0024EA2A /* SDKABC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6D702592A7D0EDF0024EA2A /* SDKABC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F6D7025E2A7D0EE90024EA2A /* SDKXYZ.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D7025D2A7D0EE80024EA2A /* SDKXYZ.xcframework */; };
-		F6D7025F2A7D0EE90024EA2A /* SDKXYZ.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6D7025D2A7D0EE80024EA2A /* SDKXYZ.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F6D7025C2A7D0EDF0024EA2A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F6D7025F2A7D0EE90024EA2A /* SDKXYZ.xcframework in Embed Frameworks */,
-				F6D7025B2A7D0EDF0024EA2A /* SDKABC.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		F6681A3C2A80A37F004533A0 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
 		F6D702412A7D0EC40024EA2A /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D702442A7D0EC40024EA2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D702462A7D0EC40024EA2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,14 +34,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D7025E2A7D0EE90024EA2A /* SDKXYZ.xcframework in Frameworks */,
-				F6D7025A2A7D0EDF0024EA2A /* SDKABC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6681A3B2A80A373004533A0 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6681A3C2A80A37F004533A0 /* project.xcconfig */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
 		F6D702382A7D0EC40024EA2A = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +68,7 @@
 		F6D702432A7D0EC40024EA2A /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				F6681A3B2A80A373004533A0 /* Target Support Files */,
 				F6D702442A7D0EC40024EA2A /* AppDelegate.swift */,
 				F6D702462A7D0EC40024EA2A /* SceneDelegate.swift */,
 				F6D702482A7D0EC40024EA2A /* ViewController.swift */,
@@ -110,7 +99,6 @@
 				F6D7023D2A7D0EC40024EA2A /* Sources */,
 				F6D7023E2A7D0EC40024EA2A /* Frameworks */,
 				F6D7023F2A7D0EC40024EA2A /* Resources */,
-				F6D7025C2A7D0EDF0024EA2A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +190,7 @@
 /* Begin XCBuildConfiguration section */
 		F6D702532A7D0EC50024EA2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6681A3C2A80A37F004533A0 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -262,6 +251,7 @@
 		};
 		F6D702542A7D0EC50024EA2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6681A3C2A80A37F004533A0 /* project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
