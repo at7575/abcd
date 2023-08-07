@@ -25,8 +25,6 @@
 		F6D7024D2A7D0EC50024EA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D702502A7D0EC50024EA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D702522A7D0EC50024EA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6D702592A7D0EDF0024EA2A /* SDKABC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDKABC.xcframework; path = ../SDKABC/build/SDKABC.xcframework; sourceTree = "<group>"; };
-		F6D7025D2A7D0EE80024EA2A /* SDKXYZ.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDKXYZ.xcframework; path = ../dependency/XYZ/v1.0.0/SDKXYZ.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +81,6 @@
 		F6D702582A7D0EDF0024EA2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6D7025D2A7D0EE80024EA2A /* SDKXYZ.xcframework */,
-				F6D702592A7D0EDF0024EA2A /* SDKABC.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,0 +1,165 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKABC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "SDKABC"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "SDKABC"
+      },
+      {
+        "kind": "Import",
+        "name": "SDKXYZ",
+        "printedName": "SDKXYZ",
+        "declKind": "Import",
+        "moduleName": "SDKABC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABC",
+        "printedName": "ABC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "log",
+            "printedName": "log",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLog",
+                "printedName": "os.OSLog",
+                "usr": "c:objc(cs)OS_os_log"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6SDKABC3ABCC3logSo06OS_os_C0CvpZ",
+            "mangledName": "$s6SDKABC3ABCC3logSo06OS_os_C0CvpZ",
+            "moduleName": "SDKABC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLog",
+                    "printedName": "os.OSLog",
+                    "usr": "c:objc(cs)OS_os_log"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6SDKABC3ABCC3logSo06OS_os_C0CvgZ",
+                "mangledName": "$s6SDKABC3ABCC3logSo06OS_os_C0CvgZ",
+                "moduleName": "SDKABC",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printInfo",
+            "printedName": "printInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6SDKABC3ABCC9printInfoyyFZ",
+            "mangledName": "$s6SDKABC3ABCC9printInfoyyFZ",
+            "moduleName": "SDKABC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABC",
+                "printedName": "SDKABC.ABC",
+                "usr": "s:6SDKABC3ABCC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6SDKABC3ABCCACycfc",
+            "mangledName": "$s6SDKABC3ABCCACycfc",
+            "moduleName": "SDKABC",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6SDKABC3ABCC",
+        "mangledName": "$s6SDKABC3ABCC",
+        "moduleName": "SDKABC",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/10050450\/Desktop\/interview\/question1\/abcd\/SDKABC\/SDKABC\/ABC.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/10050450\/Desktop\/interview\/question1\/abcd\/SDKABC\/SDKABC\/ABC.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "\"ABC\""
+    }
+  ]
+}
