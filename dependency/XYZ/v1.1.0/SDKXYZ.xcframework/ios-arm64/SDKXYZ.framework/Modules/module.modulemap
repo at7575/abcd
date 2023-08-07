@@ -1,0 +1,11 @@
+framework module SDKXYZ {
+  umbrella header "SDKXYZ.h"
+
+  export *
+  module * { export * }
+}
+
+module SDKXYZ.Swift {
+  header "SDKXYZ-Swift.h"
+  requires objc
+}
